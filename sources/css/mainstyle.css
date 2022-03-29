@@ -49,7 +49,7 @@ body {
 }
 .btnsg {
 	float:right;
-	margin-right: 100px;
+	margin-right:50px;
 	display:flex;
 	background-image: url(../images/button.svg);
 	width: 36vh;
