@@ -1,11 +1,10 @@
 html, body {
-	width: 1920px;
-	height: 1080px;
+	width: 1440px;
+	height: 900px;
 	margin:0;
 	padding-top: 0;
 	overflow: hidden;
 }
-
 body {
 	background: url(../images/bg.png) no-repeat;
 	font-family: "SKPrimoRegular";
@@ -34,7 +33,7 @@ body {
 .sgdrd {
 	width: 100%;
 	margin-top:10%;
-	max-width: 1920px;
+	max-width: 1440px;
 	max-height: 400px;
 	margin-bottom: 5%;
 }
@@ -49,7 +48,7 @@ body {
 }
 .btnsg {
 	float:right;
-	margin-right: -20px;
+	margin-right: 100px;
 	display:flex;
 	background-image: url(../images/button.svg);
 	width: 36vh;
@@ -68,25 +67,25 @@ body {
 	display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
-    max-width: 1920px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .insects > div {
-	width: 780px;
+	width: 300px;
     background: transparent;
-    height: 520px;
+    height: 340px;
     margin: 10px 0;
     text-align: center;
     font-size: 32px;
     font-weight: bold;
 }
 .polzgame {
-	width: 1920px;
-	height: 1080px;
+	width: 1440px;
+	height: 900px;
 }
 .polzgamediv {
-	width:1920px;
-	height: 1080px;
+	width:1440px;
+	height: 900px;
 	background-color: #75bf44;
 	margin: 0;
 	padding: 0;
@@ -106,8 +105,8 @@ body {
 
 .gameoverZhukDiv .gamewinZhukDiv  {
 	display: none;
-	width: 1920px;
-	height: 1080px !important;
+	width: 1440px;
+	height: 900px !important;
 	background-color: #75bf44 !important;
 	font-size:58px;
 	position: absolute;
@@ -116,8 +115,8 @@ body {
 }
 .gameoverZemDiv {
 	display: none;
-	width: 1920px;
-	height: 1080px !important;
+	width: 1440px;
+	height: 900px !important;
 	background-color: #6e6323 !important;
 	font-size:58px;
 	position: absolute;
@@ -127,8 +126,8 @@ body {
 }
 .gameoverBeeDiv {
 	display: none;
-	width: 1920px;
-	height: 1080px !important;
+	width: 1440px;
+	height: 900px !important;
 	background-color: #61c6b2 !important;
 	font-size:58px;
 	position: absolute;
@@ -138,8 +137,8 @@ body {
 }
 .gamewinBeeDiv {
 	display: none;
-	width: 1920px;
-	height: 1080px !important;
+	width: 1440px;
+	height: 900px !important;
 	background-color: #61c6b2 !important;
 	font-size:58px;
 	position: absolute;
@@ -149,8 +148,8 @@ body {
 }
 .gamewinZemDiv {
 	display: none;
-	width: 1920px;
-	height: 1080px !important;
+	width: 1440px;
+	height: 900px !important;
 	background-color: #6e6323 !important;
 	font-size:58px;
 	position: absolute;
@@ -160,83 +159,83 @@ body {
 }
 .gozhukgodiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gobeegodiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gozemgodiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gwzhukgwdiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gwbeegwdiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gwzemgwdiv {
 	padding-top:50px;
-	width: 1920px;
+	width: 1440px;
 	height: 40%;
 	text-align: center;
 	font-size:48px;
 }
 .gozhukscorediv {
-	width:1920px;
+	width:1440px;
 	height: 40%;
 	padding-top:10%;
 	font-size:48px;
 	text-align: center;
 }
 .gobeescorediv {
-	width:1920px;
+	width:1440px;
 	height: 20%;
 	padding-top:3%;
 	font-size:48px;
 	text-align: center;
 }
 .gozemscorediv {
-	width:1920px;
+	width:1440px;
 	height: 20%;
 	padding-top:3%;
 	font-size:48px;
 	text-align: center;
 }
 .gwzhukscorediv {
-	width:1920px;
+	width:1440px;
 	height: 40%;
 	padding-top:10%;
 	font-size:48px;
 	text-align: center;
 }
 .gwbeescorediv {
-	width:1920px;
+	width:1440px;
 	height: 40%;
 	padding-top:10%;
 	font-size:48px;
 	text-align: center;
 }
 .gwzemscorediv {
-	width:1920px;
+	width:1440px;
 	height: 40%;
 	padding-top:10%;
 	font-size:48px;
@@ -244,18 +243,18 @@ body {
 }
 .regamezhuk {
 	padding-top:50px;
-	width:1920px;
-	height: 380px;
+	width:1440px;
+	height:200px;
 	background-color: #75bf44;
 }
 .regamebee {
 	padding-top:50px;
-	width:1920px;
+	width:1440px;
 	background-color: #61c6b2;
 }
 .regamezem {
 	padding-top:50px;
-	width:1920px;
+	width:1440px;
 	background-color: #6e6323;
 }
 .reszhuk {
