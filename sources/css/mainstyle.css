@@ -52,6 +52,21 @@ body {
 	max-height: 400px;
 	margin-bottom: 5%;
 }
+@media (max-width: 1440px) {
+	.sgdrd {
+		max-width: 1366px;
+	}
+}
+@media (max-width: 1024px) {
+	.sgdrd {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.sgdrd {
+		max-width: none;
+	}
+}
 .polzch {
 	cursor: pointer;
 }
@@ -74,6 +89,21 @@ body {
   	justify-content: center;
   	align-items: center;
   	cursor: pointer;
+}
+@media (max-width: 1440px) {
+	.btnsg {
+		max-width: 1366px;
+	}
+}
+@media (max-width: 1024px) {
+	.btnsg {
+		max-width: 768px;
+	}
+}
+@media (max-width: 768px) {
+	.btnsg {
+		max-width: none;
+	}
 }
 .changeins .labirint .polzgame {
 	display: none !important;
